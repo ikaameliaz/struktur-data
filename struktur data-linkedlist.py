@@ -4,7 +4,7 @@ class Node:
         self.harga = harga
         self.next = None
 
-class Keranjang:
+class linkedlist:
     def __init__(self):
         self.head = None
 
@@ -57,7 +57,7 @@ menu = {
     'creamy mango boba': 22000
 }
 
-keranjang = Keranjang()
+keranjang = linkedlist()
 
 print("\nMenu Miexue:")
 print("+----+------------------------+--------+")
